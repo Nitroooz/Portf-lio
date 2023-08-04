@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+
 * {
  margin: 0;
 }
@@ -9,31 +12,51 @@
  flex-shrink: 0;
  background: #B8BAC0;
  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+ display: flex;
+ justify-content: space-between;
 }
 
 .logo {
+ margin-left: 3%;
  
+ color: #000;
+ font-family: Mea Culpa;
+ font-size: 45px;
+ font-style: normal;
+ font-weight: 400;
+ /* line-height: 60%; 30px */
+ letter-spacing: 2px;
+
 }
 
 .botoes {
-    display: flex;
-    justify-content: flex-end;
+ display: flex;
+ justify-content: flex-end;
+ margin-right: 3%;
 }
 
 .bTarefas {
-
+ margin-right: 15%;
+ margin-top: 21px;
+ font-family: 'Heebo', sans-serif;
 }
 
 .bBlog {
-
+ margin-right: 15%;
+ margin-top: 21px;
+ font-family: 'Heebo', sans-serif;
 }
 
 .bContatos {
-
+ margin-right: 15%;
+ margin-top: 21px;
+ font-family: 'Heebo', sans-serif;
 }
 
 .bSobre {
 
+ margin-top: 21px;
+ font-family: 'Heebo', sans-serif;
 }
 
 body {
